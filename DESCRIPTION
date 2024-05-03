@@ -1,6 +1,6 @@
 Package: phoenix
 Title: The Phoenix Pediatric Sepsis and Septic Shock Criteria
-Version: 1.0.0
+Version: 1.1.0
 Authors@R: 
     c(
       person(given = "Peter", family = "DeWitt",  email = "peter.dewitt@cuanschutz.edu", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-6391-0795")),
@@ -31,7 +31,7 @@ Suggests: knitr, ggplot2, qwraps2 (>= 0.6.0), reticulate, rmarkdown
 VignetteBuilder: knitr
 RoxygenNote: 7.3.1
 NeedsCompilation: no
-Packaged: 2024-03-12 01:36:10 UTC; peterdewitt
+Packaged: 2024-05-03 15:33:36 UTC; peterdewitt
 Author: Peter DeWitt [aut, cre] (<https://orcid.org/0000-0002-6391-0795>),
   Seth Russell [ctb] (<https://orcid.org/0000-0002-2436-1367>),
   Meg Rebull [ctb] (<https://orcid.org/0000-0003-0334-4223>),
@@ -39,4 +39,4 @@ Author: Peter DeWitt [aut, cre] (<https://orcid.org/0000-0002-6391-0795>),
   L. Nelson Sanchez-Pinto [ctb] (<https://orcid.org/0000-0002-7434-6747>)
 Maintainer: Peter DeWitt <peter.dewitt@cuanschutz.edu>
 Repository: CRAN
-Date/Publication: 2024-03-12 20:00:02 UTC
+Date/Publication: 2024-05-03 15:50:02 UTC

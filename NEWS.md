@@ -1,4 +1,15 @@
-# Version 1.0.0
+# Version 1.1.0:
+
+## New Features:
+
+* The function `map` has been added to get the estimated mean arterial pressure
+  from systolic and diastolic pressures.
+
+## Other Changes:
+
+* Update documentation.
+
+# Version 1.0.0:
 
 Initial Release
 
@@ -10,7 +21,7 @@ Functions for applying the Phoenix Pediatric Sepsis and Septic Shock criteria
   * `phoenix_respiratory()`
   * `phoenix_cardiovascular()`
   * `phoenix_coagulation()`
-  * `phoenix_neuorologic()`
+  * `phoenix_neurologic()`
   * `phoenix_endocrine()`
   * `phoenix_immunologic()`
   * `phoenix_renal()`

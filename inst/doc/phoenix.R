@@ -16,6 +16,22 @@ knitr::opts_chunk$set(collapse = TRUE)
 library(phoenix)
 packageVersion("phoenix")
 
+## ----echo = FALSE, results = "asis"-------------------------------------------
+tab <-
+  scan(file = system.file("phoenix_rubric.md", package = "phoenix"),
+       what = character(),
+       sep = "\n",
+       quiet = TRUE)
+cat(tab, sep = "\n")
+cat("\n")
+
+ftnt <-
+  scan(file = system.file("phoenix_rubric_footnotes.md", package = "phoenix"),
+       what = character(),
+       sep = "\n",
+       quiet = TRUE)
+cat(ftnt, sep = "\n\n")
+
 ## ----echo = FALSE, results = "hide", fig.width = 7, fig.height = 4------------
 resp_data <-
   expand.grid(pfr = seq(0, 450, by = 10), sfr = seq(0, 450, by = 10), imv = c(0, 1), o2 = c(0, 1))
@@ -96,7 +112,7 @@ ggplot2::ggplot(DF) +
   ggplot2::geom_tile() +
   ggplot2::facet_grid(lactate_bin ~ paste("Vasoactive Medications:", vasoactives)) +
   ggplot2::scale_fill_brewer(name = "Phoenix Cardiovascular Score", palette = "Spectral", direction = -1) +
-  ggplot2::ylab("Mean Arterial Pressue (mmHg)") +
+  ggplot2::ylab("Mean Arterial Pressure (mmHg)") +
   ggplot2::xlab("Age (months)") +
   ggplot2::guides(fill = ggplot2::guide_legend(nrow = 1)) +
   ggplot2::theme(legend.position = "bottom")
@@ -110,7 +126,7 @@ card_example$score <-
     vasoactives = dobutamine + dopamine + epinephrine + milrinone + norepinephrine + vasopressin,
     lactate = lactate,
     age = age,
-    map = dbp + (sbp - dbp)/3,
+    map = map(sbp = sbp, dbp = dbp),
     data = sepsis)
 
 card_example
@@ -212,7 +228,7 @@ phoenix_scores <-
       vasoactives = dobutamine + dopamine + epinephrine + milrinone + norepinephrine + vasopressin,
       lactate = lactate,
       age = age,
-      map = dbp + (sbp - dbp)/3,
+      map = map(sbp, dbp),
     # coagulation
       platelets = platelets,
       inr = inr,
@@ -242,7 +258,7 @@ phoenix8_scores <-
       vasoactives = dobutamine + dopamine + epinephrine + milrinone + norepinephrine + vasopressin,
       lactate = lactate,
       age = age, # Also used in the renal assessment.
-      map = dbp + (sbp - dbp)/3,
+      map = map(sbp = sbp, dbp = dbp),
     # coagulation
       platelets = platelets,
       inr = inr,
