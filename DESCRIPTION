@@ -1,6 +1,6 @@
 Package: phoenix
 Title: The Phoenix Pediatric Sepsis and Septic Shock Criteria
-Version: 1.1.0
+Version: 1.1.1
 Authors@R: 
     c(
       person(given = "Peter", family = "DeWitt",  email = "peter.dewitt@cuanschutz.edu", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-6391-0795")),
@@ -14,10 +14,13 @@ Description: Implementation of the Phoenix and Phoenix-8 Sepsis Criteria as
     Pediatric Sepsis and Septic Shock" by Sanchez-Pinto, Bennett, DeWitt,
     Russell et al. (2024) <doi:10.1001/jama.2024.0196> (Drs. Sanchez-Pinto
     and Bennett contributed equally to this manuscript; Dr. DeWitt and Mr.
-    Russell contributed equally to the manuscript) and "International Consensus
+    Russell contributed equally to the manuscript), "International Consensus
     Criteria for Pediatric Sepsis and Septic Shock" by Schlapbach, Watson,
     Sorce, Argent, et al. (2024) <doi:10.1001/jama.2024.0179> (Drs Schlapbach,
-    Watson, Sorce, and Argent contributed equally).
+    Watson, Sorce, and Argent contributed equally) and the application note
+    "phoenix: an R package and Python module for calculating the Phoenix
+    pediatric sepsis score and criteria" by DeWitt, Russell, Rebull,
+    Sanchez-Pinto, and Bennett (2024) <doi:10.1093/jamiaopen/ooae066>.
 Depends: R (>= 3.5.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -29,9 +32,9 @@ Imports:
 LinkingTo:
 Suggests: knitr, ggplot2, qwraps2 (>= 0.6.0), reticulate, rmarkdown
 VignetteBuilder: knitr
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 NeedsCompilation: no
-Packaged: 2024-05-03 15:33:36 UTC; peterdewitt
+Packaged: 2024-07-08 17:00:37 UTC; peterdewitt
 Author: Peter DeWitt [aut, cre] (<https://orcid.org/0000-0002-6391-0795>),
   Seth Russell [ctb] (<https://orcid.org/0000-0002-2436-1367>),
   Meg Rebull [ctb] (<https://orcid.org/0000-0003-0334-4223>),
@@ -39,4 +42,4 @@ Author: Peter DeWitt [aut, cre] (<https://orcid.org/0000-0002-6391-0795>),
   L. Nelson Sanchez-Pinto [ctb] (<https://orcid.org/0000-0002-7434-6747>)
 Maintainer: Peter DeWitt <peter.dewitt@cuanschutz.edu>
 Repository: CRAN
-Date/Publication: 2024-05-03 15:50:02 UTC
+Date/Publication: 2024-07-08 21:40:05 UTC

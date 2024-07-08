@@ -405,7 +405,7 @@ Vignette 2</a></li>
 
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" tabindex="-1"></a><span class="fu">library</span>(phoenix)</span>
 <span id="cb1-2"><a href="#cb1-2" tabindex="-1"></a><span class="fu">packageVersion</span>(<span class="st">&quot;phoenix&quot;</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a><span class="do">## [1] &#39;1.1.0&#39;</span></span></code></pre></div>
+<span id="cb1-3"><a href="#cb1-3" tabindex="-1"></a><span class="do">## [1] &#39;1.1.1&#39;</span></span></code></pre></div>
 <div id="development-and-international-consensus" class="section level1">
 <h1>Development and International Consensus</h1>
 <p>Details on the development of the diagnostic Phoenix Sepsis Criteria
@@ -467,7 +467,7 @@ scores for Phoenix and</p>
 <col width="15%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th align="left">Organ System</th>
 <th align="left">0 Points</th>
 <th align="left">1 Point</th>
@@ -476,35 +476,35 @@ scores for Phoenix and</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td align="left"><strong>Respiratory</strong> (0-3 points)</td>
 <td align="left"></td>
 <td align="left"></td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left"></td>
 <td align="left"></td>
 <td align="left">Any respiratory support</td>
 <td align="left">IMV<sup>a</sup></td>
 <td align="left">IMV</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left">  PaO<sub>2</sub>:FiO<sub>2</sub></td>
 <td align="left">≥ 400</td>
 <td align="left">&lt; 400</td>
 <td align="left">&lt; 200</td>
 <td align="left">&lt; 100</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left">  SpO<sub>2</sub>:FiO<sub>2</sub><sup>b</sup></td>
 <td align="left">≥ 292</td>
 <td align="left">&lt; 292</td>
 <td align="left">&lt; 220</td>
 <td align="left">&lt; 148</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left"><strong>Cardiovascular</strong> (0-6 points; sum of
 medications, Lactate, and MAP)</td>
 <td align="left"></td>
@@ -512,21 +512,21 @@ medications, Lactate, and MAP)</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left">   Systemic Vasoactive Medications<sup>c</sup></td>
 <td align="left">No medications</td>
 <td align="left">1 medication</td>
 <td align="left">2 or more medications</td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left">   Lactate<sup>d</sup> (mmol/L)</td>
 <td align="left">&lt; 5</td>
-<td align="left">5 ⋚ Lactate &lt; 11</td>
+<td align="left">5 ≤ Lactate &lt; 11</td>
 <td align="left">≥ 11</td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left">   Age<sup>e</sup> (months) adjusted MAP<sup>f</sup>
 (mmHg)</td>
 <td align="left"></td>
@@ -534,49 +534,49 @@ medications, Lactate, and MAP)</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left">     0 ≤ Age &lt; 1</td>
 <td align="left">≥ 31</td>
 <td align="left">17 ≤ MAP &lt; 31</td>
 <td align="left">&lt; 17</td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left">     1 ≤ Age &lt; 12</td>
 <td align="left">≥ 39</td>
 <td align="left">25 ≤ MAP &lt; 39</td>
 <td align="left">&lt; 25</td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left">     12 ≤ Age &lt; 24</td>
 <td align="left">≥ 44</td>
 <td align="left">31 ≤ MAP &lt; 44</td>
 <td align="left">&lt; 31</td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left">     24 ≤ Age &lt; 60</td>
 <td align="left">≥ 45</td>
 <td align="left">32 ≤ MAP &lt; 45</td>
 <td align="left">&lt; 32</td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left">     60 ≤ Age &lt; 144</td>
 <td align="left">≥ 49</td>
 <td align="left">36 ≤ MAP &lt; 49</td>
 <td align="left">&lt; 36</td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left">     144 ≤ Age &lt; 216</td>
 <td align="left">≥ 52</td>
 <td align="left">38 ≤ MAP &lt; 52</td>
 <td align="left">&lt; 38</td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left"><strong>Coagulation</strong><sup>g</sup> (0-2 points; 1
 for each lab; max of 2 points)</td>
 <td align="left"></td>
@@ -584,35 +584,35 @@ for each lab; max of 2 points)</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left">   Platelets (1000/μL)</td>
 <td align="left">≥ 100</td>
 <td align="left">&lt; 100</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left">   INR</td>
 <td align="left">≤ 1.3</td>
 <td align="left">&gt; 1.3</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left">   D-Dimer (mg/L FEU)</td>
 <td align="left">≤ 2</td>
 <td align="left">&gt; 2</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left">   Fibrinogen (mg/dL)</td>
 <td align="left">≥ 100</td>
 <td align="left">&lt; 100</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left"><strong>Neurologic</strong><sup>h</sup> (0-2
 points)</td>
 <td align="left"></td>
@@ -620,28 +620,28 @@ points)</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left">  </td>
 <td align="left">GCS<sup>i</sup> ≥ 11</td>
 <td align="left">GCS ≤ 10</td>
 <td align="left">Bilaterally fixed pupils</td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left"><strong>Endocrine</strong> (0-1 point)</td>
 <td align="left"></td>
 <td align="left"></td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left">   Blood Glucose (mg/dL)</td>
 <td align="left">50 ≤ Blood Glucose ≤ 150</td>
 <td align="left">&lt; 50; or &gt; 150</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left"><strong>Immunologic</strong> (0-1 point; point from ANC
 and/or ALC)</td>
 <td align="left"></td>
@@ -649,28 +649,28 @@ and/or ALC)</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left">   ANC (cells/mm<sup>3</sup>)</td>
 <td align="left">≥ 500</td>
 <td align="left">&lt; 500</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left">   ALC (cells/mm<sup>3</sup>)</td>
 <td align="left">≥ 1000</td>
 <td align="left">&lt; 1000</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left"><strong>Renal</strong> (0-1 point)</td>
 <td align="left"></td>
 <td align="left"></td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left">   Age<sup>e</sup> (months) adjusted Creatinine
 (mg/dL)</td>
 <td align="left"></td>
@@ -678,49 +678,49 @@ and/or ALC)</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left">     0 ≤ Age &lt; 1</td>
 <td align="left">&lt; 0.8</td>
 <td align="left">≥ 0.8</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left">     1 ≤ Age &lt; 12</td>
 <td align="left">&lt; 0.3</td>
 <td align="left">≥ 0.3</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left">     12 ≤ Age &lt; 24</td>
 <td align="left">&lt; 0.4</td>
 <td align="left">≥ 0.4</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left">     24 ≤ Age &lt; 60</td>
 <td align="left">&lt; 0.6</td>
 <td align="left">≥ 0.6</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left">     60 ≤ Age &lt; 144</td>
 <td align="left">&lt; 0.7</td>
 <td align="left">≥ 0.7</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left">     144 ≤ Age &lt; 216</td>
 <td align="left">&lt; 1.0</td>
 <td align="left">≥ 1.0</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left"><strong>Hepatic</strong> (0-1 point; point from total
 bilirubin and/or ALT)</td>
 <td align="left"></td>
@@ -728,14 +728,14 @@ bilirubin and/or ALT)</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="even">
+<tr>
 <td align="left">   Total Bilirubin (mg/dL)</td>
 <td align="left">&lt; 4</td>
 <td align="left">≥ 4</td>
 <td align="left"></td>
 <td align="left"></td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="left">   ALT (IU/L)</td>
 <td align="left">≤ 102</td>
 <td align="left">&gt; 102</td>
@@ -813,7 +813,7 @@ encounter. For example, consider the following patient encounter and
 organ dysfunction scores:</p>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th align="center">encounter time</th>
 <th align="center">resp</th>
 <th align="center">card</th>
@@ -823,7 +823,7 @@ organ dysfunction scores:</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td align="center">0</td>
 <td align="center">1</td>
 <td align="center">0</td>
@@ -831,7 +831,7 @@ organ dysfunction scores:</p>
 <td align="center">1</td>
 <td align="center">2</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="center">120</td>
 <td align="center">0</td>
 <td align="center">1</td>
@@ -839,7 +839,7 @@ organ dysfunction scores:</p>
 <td align="center">1</td>
 <td align="center">2</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="center">720</td>
 <td align="center">0</td>
 <td align="center">0</td>
@@ -959,7 +959,7 @@ in the atmosphere.</p>
 <span id="cb5-9"><a href="#cb5-9" tabindex="-1"></a>resp_example</span></code></pre></div>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th align="right">pid</th>
 <th align="right">fio2</th>
 <th align="right">pao2</th>
@@ -969,7 +969,7 @@ in the atmosphere.</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td align="right">1</td>
 <td align="right">0.75</td>
 <td align="right">NA</td>
@@ -977,7 +977,7 @@ in the atmosphere.</p>
 <td align="right">1</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">2</td>
 <td align="right">0.75</td>
 <td align="right">75.3</td>
@@ -985,7 +985,7 @@ in the atmosphere.</p>
 <td align="right">1</td>
 <td align="right">3</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">3</td>
 <td align="right">1.00</td>
 <td align="right">49.5</td>
@@ -993,7 +993,7 @@ in the atmosphere.</p>
 <td align="right">1</td>
 <td align="right">3</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">4</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
@@ -1001,7 +1001,7 @@ in the atmosphere.</p>
 <td align="right">0</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">5</td>
 <td align="right">NA</td>
 <td align="right">38.7</td>
@@ -1009,7 +1009,7 @@ in the atmosphere.</p>
 <td align="right">0</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">6</td>
 <td align="right">0.60</td>
 <td align="right">69.9</td>
@@ -1017,7 +1017,7 @@ in the atmosphere.</p>
 <td align="right">1</td>
 <td align="right">3</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">7</td>
 <td align="right">0.50</td>
 <td align="right">NA</td>
@@ -1025,7 +1025,7 @@ in the atmosphere.</p>
 <td align="right">1</td>
 <td align="right">3</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">8</td>
 <td align="right">0.30</td>
 <td align="right">NA</td>
@@ -1033,7 +1033,7 @@ in the atmosphere.</p>
 <td align="right">1</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">9</td>
 <td align="right">0.65</td>
 <td align="right">51.0</td>
@@ -1041,7 +1041,7 @@ in the atmosphere.</p>
 <td align="right">1</td>
 <td align="right">3</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">10</td>
 <td align="right">0.80</td>
 <td align="right">NA</td>
@@ -1049,7 +1049,7 @@ in the atmosphere.</p>
 <td align="right">1</td>
 <td align="right">3</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">11</td>
 <td align="right">0.65</td>
 <td align="right">54.0</td>
@@ -1057,7 +1057,7 @@ in the atmosphere.</p>
 <td align="right">1</td>
 <td align="right">3</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">12</td>
 <td align="right">0.35</td>
 <td align="right">NA</td>
@@ -1065,7 +1065,7 @@ in the atmosphere.</p>
 <td align="right">0</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">13</td>
 <td align="right">0.30</td>
 <td align="right">NA</td>
@@ -1073,7 +1073,7 @@ in the atmosphere.</p>
 <td align="right">1</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">14</td>
 <td align="right">0.50</td>
 <td align="right">NA</td>
@@ -1081,7 +1081,7 @@ in the atmosphere.</p>
 <td align="right">1</td>
 <td align="right">2</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">15</td>
 <td align="right">1.00</td>
 <td align="right">42.5</td>
@@ -1089,7 +1089,7 @@ in the atmosphere.</p>
 <td align="right">1</td>
 <td align="right">3</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">16</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
@@ -1097,7 +1097,7 @@ in the atmosphere.</p>
 <td align="right">0</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">17</td>
 <td align="right">0.45</td>
 <td align="right">61.3</td>
@@ -1105,7 +1105,7 @@ in the atmosphere.</p>
 <td align="right">1</td>
 <td align="right">2</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">18</td>
 <td align="right">1.00</td>
 <td align="right">64.1</td>
@@ -1113,7 +1113,7 @@ in the atmosphere.</p>
 <td align="right">1</td>
 <td align="right">3</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">19</td>
 <td align="right">0.50</td>
 <td align="right">NA</td>
@@ -1121,7 +1121,7 @@ in the atmosphere.</p>
 <td align="right">1</td>
 <td align="right">2</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">20</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
@@ -1198,7 +1198,7 @@ arterial pressure given sbp and dbp.</p>
 <col width="5%" />
 </colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th align="right">pid</th>
 <th align="right">dobutamine</th>
 <th align="right">dopamine</th>
@@ -1214,7 +1214,7 @@ arterial pressure given sbp and dbp.</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td align="right">1</td>
 <td align="right">1</td>
 <td align="right">1</td>
@@ -1228,7 +1228,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">0.06</td>
 <td align="right">2</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">2</td>
 <td align="right">0</td>
 <td align="right">1</td>
@@ -1242,7 +1242,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">201.70</td>
 <td align="right">2</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">3</td>
 <td align="right">0</td>
 <td align="right">1</td>
@@ -1256,7 +1256,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">20.80</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">4</td>
 <td align="right">0</td>
 <td align="right">0</td>
@@ -1270,7 +1270,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">192.50</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">5</td>
 <td align="right">0</td>
 <td align="right">0</td>
@@ -1284,7 +1284,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">214.40</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">6</td>
 <td align="right">0</td>
 <td align="right">1</td>
@@ -1298,7 +1298,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">101.20</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">7</td>
 <td align="right">0</td>
 <td align="right">0</td>
@@ -1312,7 +1312,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">150.70</td>
 <td align="right">4</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">8</td>
 <td align="right">0</td>
 <td align="right">0</td>
@@ -1326,7 +1326,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">159.70</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">9</td>
 <td align="right">0</td>
 <td align="right">0</td>
@@ -1340,7 +1340,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">176.10</td>
 <td align="right">3</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">10</td>
 <td align="right">0</td>
 <td align="right">0</td>
@@ -1354,7 +1354,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">6.60</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">11</td>
 <td align="right">0</td>
 <td align="right">1</td>
@@ -1368,7 +1368,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">36.70</td>
 <td align="right">3</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">12</td>
 <td align="right">0</td>
 <td align="right">0</td>
@@ -1382,7 +1382,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">37.40</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">13</td>
 <td align="right">0</td>
 <td align="right">0</td>
@@ -1396,7 +1396,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">0.12</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">14</td>
 <td align="right">0</td>
 <td align="right">0</td>
@@ -1410,7 +1410,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">62.30</td>
 <td align="right">2</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">15</td>
 <td align="right">0</td>
 <td align="right">1</td>
@@ -1424,7 +1424,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">10.60</td>
 <td align="right">3</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">16</td>
 <td align="right">1</td>
 <td align="right">1</td>
@@ -1438,7 +1438,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">0.89</td>
 <td align="right">2</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">17</td>
 <td align="right">0</td>
 <td align="right">1</td>
@@ -1452,7 +1452,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">10.70</td>
 <td align="right">2</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">18</td>
 <td align="right">0</td>
 <td align="right">1</td>
@@ -1466,7 +1466,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">10.60</td>
 <td align="right">2</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">19</td>
 <td align="right">0</td>
 <td align="right">0</td>
@@ -1480,7 +1480,7 @@ arterial pressure given sbp and dbp.</p>
 <td align="right">0.17</td>
 <td align="right">2</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">20</td>
 <td align="right">0</td>
 <td align="right">0</td>
@@ -1524,7 +1524,7 @@ points assigned is 2.</p>
 <span id="cb7-4"><a href="#cb7-4" tabindex="-1"></a>coag_example</span></code></pre></div>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th align="right">pid</th>
 <th align="right">platelets</th>
 <th align="right">inr</th>
@@ -1534,7 +1534,7 @@ points assigned is 2.</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td align="right">1</td>
 <td align="right">199</td>
 <td align="right">1.460</td>
@@ -1542,7 +1542,7 @@ points assigned is 2.</p>
 <td align="right">180</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">2</td>
 <td align="right">243</td>
 <td align="right">1.180</td>
@@ -1550,7 +1550,7 @@ points assigned is 2.</p>
 <td align="right">311</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">3</td>
 <td align="right">49</td>
 <td align="right">1.600</td>
@@ -1558,7 +1558,7 @@ points assigned is 2.</p>
 <td align="right">309</td>
 <td align="right">2</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">4</td>
 <td align="right">NA</td>
 <td align="right">1.300</td>
@@ -1566,7 +1566,7 @@ points assigned is 2.</p>
 <td align="right">220</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">5</td>
 <td align="right">393</td>
 <td align="right">NA</td>
@@ -1574,7 +1574,7 @@ points assigned is 2.</p>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">6</td>
 <td align="right">86</td>
 <td align="right">1.230</td>
@@ -1582,7 +1582,7 @@ points assigned is 2.</p>
 <td align="right">270</td>
 <td align="right">2</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">7</td>
 <td align="right">65</td>
 <td align="right">3.100</td>
@@ -1590,7 +1590,7 @@ points assigned is 2.</p>
 <td align="right">94</td>
 <td align="right">2</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">8</td>
 <td align="right">215</td>
 <td align="right">0.970</td>
@@ -1598,7 +1598,7 @@ points assigned is 2.</p>
 <td align="right">489</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">9</td>
 <td align="right">101</td>
 <td align="right">1.080</td>
@@ -1606,7 +1606,7 @@ points assigned is 2.</p>
 <td align="right">456</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">10</td>
 <td align="right">292</td>
 <td align="right">NA</td>
@@ -1614,7 +1614,7 @@ points assigned is 2.</p>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">11</td>
 <td align="right">NA</td>
 <td align="right">3.000</td>
@@ -1622,7 +1622,7 @@ points assigned is 2.</p>
 <td align="right">NA</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">12</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
@@ -1630,7 +1630,7 @@ points assigned is 2.</p>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">13</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
@@ -1638,7 +1638,7 @@ points assigned is 2.</p>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">14</td>
 <td align="right">24</td>
 <td align="right">1.146</td>
@@ -1646,7 +1646,7 @@ points assigned is 2.</p>
 <td align="right">NA</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">15</td>
 <td align="right">82</td>
 <td align="right">1.424</td>
@@ -1654,7 +1654,7 @@ points assigned is 2.</p>
 <td align="right">76</td>
 <td align="right">2</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">16</td>
 <td align="right">355</td>
 <td align="right">1.230</td>
@@ -1662,7 +1662,7 @@ points assigned is 2.</p>
 <td align="right">174</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">17</td>
 <td align="right">166</td>
 <td align="right">1.000</td>
@@ -1670,7 +1670,7 @@ points assigned is 2.</p>
 <td align="right">236</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">18</td>
 <td align="right">80</td>
 <td align="right">1.641</td>
@@ -1678,7 +1678,7 @@ points assigned is 2.</p>
 <td align="right">76</td>
 <td align="right">2</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">19</td>
 <td align="right">190</td>
 <td align="right">NA</td>
@@ -1686,7 +1686,7 @@ points assigned is 2.</p>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">20</td>
 <td align="right">78</td>
 <td align="right">1.160</td>
@@ -1718,7 +1718,7 @@ scores.</p></li>
 <span id="cb8-4"><a href="#cb8-4" tabindex="-1"></a>neuro_example</span></code></pre></div>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th align="right">pid</th>
 <th align="right">gcs_total</th>
 <th align="left">pupil</th>
@@ -1726,121 +1726,121 @@ scores.</p></li>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td align="right">1</td>
 <td align="right">NA</td>
 <td align="left"></td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">2</td>
 <td align="right">5</td>
 <td align="left">both-reactive</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">3</td>
 <td align="right">15</td>
 <td align="left">both-reactive</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">4</td>
 <td align="right">14</td>
 <td align="left"></td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">5</td>
 <td align="right">NA</td>
 <td align="left"></td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">6</td>
 <td align="right">3</td>
 <td align="left">both-reactive</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">7</td>
 <td align="right">NA</td>
 <td align="left"></td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">8</td>
 <td align="right">15</td>
 <td align="left">both-reactive</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">9</td>
 <td align="right">3</td>
 <td align="left">both-reactive</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">10</td>
 <td align="right">3</td>
 <td align="left">both-reactive</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">11</td>
 <td align="right">3</td>
 <td align="left">both-fixed</td>
 <td align="right">2</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">12</td>
 <td align="right">NA</td>
 <td align="left"></td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">13</td>
 <td align="right">NA</td>
 <td align="left"></td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">14</td>
 <td align="right">NA</td>
 <td align="left"></td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">15</td>
 <td align="right">NA</td>
 <td align="left"></td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">16</td>
 <td align="right">NA</td>
 <td align="left"></td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">17</td>
 <td align="right">11</td>
 <td align="left">both-reactive</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">18</td>
 <td align="right">NA</td>
 <td align="left"></td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">19</td>
 <td align="right">NA</td>
 <td align="left"></td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">20</td>
 <td align="right">NA</td>
 <td align="left"></td>
@@ -1867,109 +1867,109 @@ scoring.</p>
 <span id="cb9-3"><a href="#cb9-3" tabindex="-1"></a>endo_example</span></code></pre></div>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th align="right">pid</th>
 <th align="right">glucose</th>
 <th align="right">score</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td align="right">1</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">2</td>
 <td align="right">110.0</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">3</td>
 <td align="right">93.0</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">4</td>
 <td align="right">110.0</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">5</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">6</td>
 <td align="right">147.0</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">7</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">8</td>
 <td align="right">100.0</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">9</td>
 <td align="right">264.0</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">10</td>
 <td align="right">93.0</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">11</td>
 <td align="right">341.0</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">12</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">13</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">14</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">15</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">16</td>
 <td align="right">82.4</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">17</td>
 <td align="right">130.0</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">18</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">19</td>
 <td align="right">103.0</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">20</td>
 <td align="right">159.8</td>
 <td align="right">1</td>
@@ -1996,7 +1996,7 @@ scoring.</p>
 <span id="cb10-3"><a href="#cb10-3" tabindex="-1"></a>immu_example</span></code></pre></div>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th align="right">pid</th>
 <th align="right">anc</th>
 <th align="right">alc</th>
@@ -2004,121 +2004,121 @@ scoring.</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td align="right">1</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">2</td>
 <td align="right">14.220</td>
 <td align="right">2.220</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">3</td>
 <td align="right">2.210</td>
 <td align="right">0.190</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">4</td>
 <td align="right">3.184</td>
 <td align="right">0.645</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">5</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">6</td>
 <td align="right">20.200</td>
 <td align="right">0.240</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">7</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">8</td>
 <td align="right">3.760</td>
 <td align="right">1.550</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">9</td>
 <td align="right">8.770</td>
 <td align="right">3.600</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">10</td>
 <td align="right">9.084</td>
 <td align="right">4.617</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">11</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">12</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">13</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">14</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">15</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">16</td>
 <td align="right">4.720</td>
 <td align="right">4.300</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">17</td>
 <td align="right">9.380</td>
 <td align="right">1.310</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">18</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">19</td>
 <td align="right">12.570</td>
 <td align="right">2.810</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">20</td>
 <td align="right">3.410</td>
 <td align="right">2.850</td>
@@ -2146,109 +2146,109 @@ scoring.</p>
 <span id="cb11-3"><a href="#cb11-3" tabindex="-1"></a>renal_example</span></code></pre></div>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th align="right">creatinine</th>
 <th align="right">age</th>
 <th align="right">score</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td align="right">1.030</td>
 <td align="right">0.06</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">0.510</td>
 <td align="right">201.70</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">0.330</td>
 <td align="right">20.80</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">0.310</td>
 <td align="right">192.50</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">0.520</td>
 <td align="right">214.40</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">0.770</td>
 <td align="right">101.20</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">1.470</td>
 <td align="right">150.70</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">0.580</td>
 <td align="right">159.70</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">1.230</td>
 <td align="right">176.10</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">0.180</td>
 <td align="right">6.60</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">0.870</td>
 <td align="right">36.70</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">NA</td>
 <td align="right">37.40</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">NA</td>
 <td align="right">0.12</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">0.120</td>
 <td align="right">62.30</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">1.300</td>
 <td align="right">10.60</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">0.418</td>
 <td align="right">0.89</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">0.290</td>
 <td align="right">10.70</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">1.100</td>
 <td align="right">10.60</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">1.200</td>
 <td align="right">0.17</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">0.418</td>
 <td align="right">71.90</td>
 <td align="right">0</td>
@@ -2273,7 +2273,7 @@ scoring.</p>
 <span id="cb12-3"><a href="#cb12-3" tabindex="-1"></a>hep_example</span></code></pre></div>
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th align="right">pid</th>
 <th align="right">bilirubin</th>
 <th align="right">alt</th>
@@ -2281,121 +2281,121 @@ scoring.</p>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td align="right">1</td>
 <td align="right">NA</td>
 <td align="right">36</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">2</td>
 <td align="right">0.200</td>
 <td align="right">32</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">3</td>
 <td align="right">0.800</td>
 <td align="right">182</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">4</td>
 <td align="right">8.500</td>
 <td align="right">21</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">5</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">6</td>
 <td align="right">1.200</td>
 <td align="right">15</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">7</td>
 <td align="right">1.700</td>
 <td align="right">3664</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">8</td>
 <td align="right">0.500</td>
 <td align="right">50</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">9</td>
 <td align="right">21.100</td>
 <td align="right">151</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">10</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">11</td>
 <td align="right">0.180</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">12</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">13</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">14</td>
 <td align="right">3.300</td>
 <td align="right">60</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">15</td>
 <td align="right">1.300</td>
 <td align="right">1792</td>
 <td align="right">1</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">16</td>
 <td align="right">1.579</td>
 <td align="right">15</td>
 <td align="right">0</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">17</td>
 <td align="right">0.600</td>
 <td align="right">41</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">18</td>
 <td align="right">1.300</td>
 <td align="right">1790</td>
 <td align="right">1</td>
 </tr>
-<tr class="odd">
+<tr>
 <td align="right">19</td>
 <td align="right">NA</td>
 <td align="right">NA</td>
 <td align="right">0</td>
 </tr>
-<tr class="even">
+<tr>
 <td align="right">20</td>
 <td align="right">0.363</td>
 <td align="right">22</td>
