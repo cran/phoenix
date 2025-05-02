@@ -1,6 +1,6 @@
 Package: phoenix
 Title: The Phoenix Pediatric Sepsis and Septic Shock Criteria
-Version: 1.1.1
+Version: 1.1.2
 Authors@R: 
     c(
       person(given = "Peter", family = "DeWitt",  email = "peter.dewitt@cuanschutz.edu", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-6391-0795")),
@@ -24,7 +24,8 @@ Description: Implementation of the Phoenix and Phoenix-8 Sepsis Criteria as
 Depends: R (>= 3.5.0)
 License: MIT + file LICENSE
 Encoding: UTF-8
-URL: https://github.com/CU-DBMI-Peds/phoenix/
+URL: https://cu-dbmi-peds.github.io/phoenix/,
+        https://github.com/CU-DBMI-Peds/phoenix/
 BugReports: https://github.com/CU-DBMI-Peds/phoenix/issues
 Language: en-us
 LazyData: true
@@ -33,13 +34,16 @@ LinkingTo:
 Suggests: knitr, ggplot2, qwraps2 (>= 0.6.0), reticulate, rmarkdown
 VignetteBuilder: knitr
 RoxygenNote: 7.3.2
+Config/Needs/website: rmarkdown
 NeedsCompilation: no
-Packaged: 2024-07-08 17:00:37 UTC; peterdewitt
-Author: Peter DeWitt [aut, cre] (<https://orcid.org/0000-0002-6391-0795>),
-  Seth Russell [ctb] (<https://orcid.org/0000-0002-2436-1367>),
-  Meg Rebull [ctb] (<https://orcid.org/0000-0003-0334-4223>),
-  Tell Bennett [ctb] (<https://orcid.org/0000-0003-1483-4236>),
-  L. Nelson Sanchez-Pinto [ctb] (<https://orcid.org/0000-0002-7434-6747>)
+Packaged: 2025-05-02 20:12:49 UTC; peterdewitt
+Author: Peter DeWitt [aut, cre] (ORCID:
+    <https://orcid.org/0000-0002-6391-0795>),
+  Seth Russell [ctb] (ORCID: <https://orcid.org/0000-0002-2436-1367>),
+  Meg Rebull [ctb] (ORCID: <https://orcid.org/0000-0003-0334-4223>),
+  Tell Bennett [ctb] (ORCID: <https://orcid.org/0000-0003-1483-4236>),
+  L. Nelson Sanchez-Pinto [ctb] (ORCID:
+    <https://orcid.org/0000-0002-7434-6747>)
 Maintainer: Peter DeWitt <peter.dewitt@cuanschutz.edu>
 Repository: CRAN
-Date/Publication: 2024-07-08 21:40:05 UTC
+Date/Publication: 2025-05-02 22:00:05 UTC
