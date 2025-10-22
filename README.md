@@ -4,20 +4,24 @@
 
 # phoenix: Phoenix Sepsis and Phoenix-8 Sepsis Criteria <img src="man/figures/hexsticker.png" width="150px" align="right" alt = "Phoenix Hex Sticker Logo"/>
 
+
+<!-- badges: start -->
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![R-CMD-check](https://github.com/CU-DBMI-Peds/phoenix/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/CU-DBMI-Peds/phoenix/actions/workflows/R-CMD-check.yaml)
 [![codecov](https://codecov.io/gh/CU-DBMI-Peds/phoenix/graph/badge.svg?token=PKLXJ9SQOD)](https://app.codecov.io/gh/CU-DBMI-Peds/phoenix)
-[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version/phoenix)](https://cran.r-project.org/package=phoenix)
+[![CRAN_Status_Badge](https://www.r-pkg.org/badges/version-last-release/phoenix)](https://cran.r-project.org/package=phoenix)
 [![CRAN RStudio mirror downloads](http://cranlogs.r-pkg.org/badges/phoenix)](https://www.r-pkg.org/pkg/phoenix)
+[![downloads](https://cranlogs.r-pkg.org/badges/grand-total/phoenix)](https://www.r-pkg.org/pkg/phoenix)
+<!-- badges: end -->
 
 Implementation of the Phoenix and Phoenix-8 Sepsis Criteria as
 described in:
 
-* ["Development and Validation of the Phoenix Criteria for Pediatric Sepsis and Septic Shock"](doi:10.1001/jama.2024.0196) by Sanchez-Pinto&ast;, Bennett&ast;, DeWitt&ast;&ast;, Russell&ast;&ast; et al. (2024)
+* ["Development and Validation of the Phoenix Criteria for Pediatric Sepsis and Septic Shock"](https://doi.org/10.1001/jama.2024.0196) by Sanchez-Pinto&ast;, Bennett&ast;, DeWitt&ast;&ast;, Russell&ast;&ast; et al. (2024)
 
   * <small> &ast; Drs Sanchez-Pinto and Bennett contributed equally; &ast;&ast; Dr DeWitt and Mr Russell contributed equally.</small>
 
-* ["International Consensus Criteria for Pediatric Sepsis and Septic Shock"](doi:10.1001/jama.2024.0179) by Schlapbach, Watson, Sorce, et al. (2024).
+* ["International Consensus Criteria for Pediatric Sepsis and Septic Shock"](https://doi.org/10.1001/jama.2024.0179) by Schlapbach, Watson, Sorce, et al. (2024).
 
 The best overview for this package is the R vignette which you can view locally
 after installing the R package via
@@ -29,11 +33,19 @@ or you can read it online
 
 The Phoenix Criteria have been implemented in
 
-* an R package,
-* a Python module, and
-* example SQL queries.
+* an R package
+  * [article](https://cu-dbmi-peds.github.io/phoenix/articles/phoenix.html)
+  * [CRAN](https://cran.r-project.org/package=phoenix)
 
-The repository has been built with R as the primary and default language.
+* a Python module
+  * [article](https://cu-dbmi-peds.github.io/phoenix/articles/python.html)
+  * [PyPi](https://pypi.org/project/phoenix-sepsis/)
+
+* example SQL queries
+  * [article](https://cu-dbmi-peds.github.io/phoenix/articles/sql.html)
+
+* Notes for implementing in Electronic Health Records (EHRs)
+  * [article](https://cu-dbmi-peds.github.io/phoenix/articles/ehr_implementation_notes.html)
 
 ## Citation
 If you use this package in your work, please cite the Phoenix criteria by citing
@@ -43,7 +55,7 @@ and if using the R package, cite it explicitly as well.
     Peter E DeWitt, Seth Russell, Margaret N Rebull, L Nelson Sanchez-Pinto, Tellen
     D Bennett, phoenix: an R package and Python module for calculating the Phoenix
     pediatric sepsis score and criteria, JAMIA Open, Volume 7, Issue 3, October
-    2024, ooae066, [doi:10.1093/jamiaopen/ooae066](doi:10.1093/jamiaopen/ooae066)
+    2024, ooae066, [doi:10.1093/jamiaopen/ooae066](https://doi.org/10.1093/jamiaopen/ooae066)
 
 Bibtex formatted citations can be retrieved within R via
 
@@ -117,3 +129,10 @@ article for details and examples of implementing the scoring rubrics in SQL.
 These examples are done in SQLite but will be easily translated into other SQL
 dialects.
 
+## Electronic Health Record (EHR)
+
+Read [Phoenix Sepsis EHR Implementation Notes](https://cu-dbmi-peds.github.io/phoenix/articles/ehr_implementation_notes.html)
+for details about the expected inputs for the scoring in order to assist EHR
+implementation. The phoenix R package and Python module, along with the example
+SQL code assumes that the data have been prepared as expected and returns scores
+accordingly.
